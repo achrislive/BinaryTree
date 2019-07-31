@@ -1,3 +1,5 @@
+ // Christian Rebero Twahirwa
+
 public class BinaryTree {
 
     static int root = 0;
@@ -7,6 +9,7 @@ public class BinaryTree {
     public void InitializeRoot(String value){
         array[0] = value;
     }
+    
 
     /** Method to insert value to the left child of the node*/
     public void LeftChild(String value, int root){
